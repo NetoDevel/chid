@@ -1,0 +1,7 @@
+public class ${module_name}Presenter {
+
+    public interface ${module_name}PresenterListener {
+
+    }
+
+}

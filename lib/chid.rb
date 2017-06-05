@@ -64,7 +64,8 @@ module Chid
     :'stack'               => [/^stack\s(.*)/, /^stack/],
     :'translate:yandex_translate' => [/^t\s(.*)\s(\w{2})\sto\s(\w{2})/, /^t\s(.*)/ ],
     :'translate:yandex_list' => [/^translate list/ ],
-    :github                 => [/^github\s(.+)/]
+    :github                 => [/^github\s(.+)/],
+    :'mvp'               => [/^mvp\s(.*)/, /^mvp/]
   }
 
 
@@ -96,5 +97,3 @@ class String
   def blink;          "\e[5m#{self}\e[25m" end
   def reverse_color;  "\e[7m#{self}\e[27m" end
 end
-
-

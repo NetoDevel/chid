@@ -1,0 +1,7 @@
+public class ${module_name}Model {
+
+  class ${module_name}Response {
+
+  }
+
+}

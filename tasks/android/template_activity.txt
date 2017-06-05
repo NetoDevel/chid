@@ -1,0 +1,9 @@
+public class ${module_name}Activity extends AppCompatActivity implements ${module_name}Presenter.${module_name}PresenterListener {
+
+    @Override
+    protected void onCreate(@Nullable Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_${module_name_lower_case});
+    }
+
+}

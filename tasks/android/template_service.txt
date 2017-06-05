@@ -1,0 +1,5 @@
+public class ${module_name}Service {
+
+    private ${module_name}Repository ${module_name}Repository;
+
+}
